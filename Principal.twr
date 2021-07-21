@@ -1,0 +1,116 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/trce -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf
+-ucf Principal.ucf
+
+Design file:              Principal.ncd
+Physical constraint file: Principal.pcf
+Device,package,speed:     xc6slx9,csg225,C,-3 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock Relojj
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Relojj         |    3.587|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+PinA<0>        |SegmA          |   10.421|
+PinA<0>        |SegmB          |   10.409|
+PinA<0>        |SegmC          |    9.589|
+PinA<0>        |SegmD          |   10.505|
+PinA<0>        |SegmE          |    9.634|
+PinA<0>        |SegmF          |    9.932|
+PinA<0>        |SegmG          |   10.402|
+PinA<1>        |SegmA          |   10.580|
+PinA<1>        |SegmB          |   10.568|
+PinA<1>        |SegmC          |    9.810|
+PinA<1>        |SegmD          |   10.664|
+PinA<1>        |SegmE          |    9.793|
+PinA<1>        |SegmF          |   10.153|
+PinA<1>        |SegmG          |   10.561|
+PinA<2>        |SegmA          |   10.886|
+PinA<2>        |SegmB          |   11.018|
+PinA<2>        |SegmC          |   10.273|
+PinA<2>        |SegmD          |   10.970|
+PinA<2>        |SegmE          |   10.243|
+PinA<2>        |SegmF          |   10.616|
+PinA<2>        |SegmG          |   11.011|
+PinA<3>        |SegmA          |   10.527|
+PinA<3>        |SegmB          |   10.763|
+PinA<3>        |SegmC          |   10.018|
+PinA<3>        |SegmD          |   10.611|
+PinA<3>        |SegmE          |    9.592|
+PinA<3>        |SegmF          |   10.361|
+PinA<3>        |SegmG          |   10.756|
+PinB<0>        |SegmA          |   10.037|
+PinB<0>        |SegmB          |   10.025|
+PinB<0>        |SegmC          |    9.196|
+PinB<0>        |SegmD          |   10.121|
+PinB<0>        |SegmE          |    9.250|
+PinB<0>        |SegmF          |    9.539|
+PinB<0>        |SegmG          |   10.018|
+PinB<1>        |SegmA          |   10.723|
+PinB<1>        |SegmB          |   10.711|
+PinB<1>        |SegmC          |    9.885|
+PinB<1>        |SegmD          |   10.807|
+PinB<1>        |SegmE          |    9.936|
+PinB<1>        |SegmF          |   10.228|
+PinB<1>        |SegmG          |   10.704|
+PinB<2>        |SegmA          |   10.227|
+PinB<2>        |SegmB          |   10.359|
+PinB<2>        |SegmC          |    9.614|
+PinB<2>        |SegmD          |   10.311|
+PinB<2>        |SegmE          |    9.584|
+PinB<2>        |SegmF          |    9.957|
+PinB<2>        |SegmG          |   10.352|
+PinB<3>        |SegmA          |    9.459|
+PinB<3>        |SegmB          |    9.422|
+PinB<3>        |SegmC          |    8.677|
+PinB<3>        |SegmD          |    9.543|
+PinB<3>        |SegmE          |    8.816|
+PinB<3>        |SegmF          |    9.020|
+PinB<3>        |SegmG          |    9.415|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Jun 25 19:07:55 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 383 MB
+
+
+

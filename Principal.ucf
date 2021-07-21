@@ -1,0 +1,32 @@
+
+
+NET "PinA[3]" LOC = L1;
+NET "PinA[2]" LOC = N2;
+NET "PinA[1]" LOC = P5;
+NET "PinA[0]" LOC = R7;
+NET "PinB[3]" LOC = P9;
+NET "PinB[2]" LOC = N4;
+NET "PinB[1]" LOC = N6;
+NET "PinB[0]" LOC = M8;
+NET "SegmA" LOC = K13;
+NET "SegmB" LOC = L15;
+NET "SegmC" LOC = M15;
+NET "SegmD" LOC = P15;
+NET "SegmE" LOC = P14;
+NET "SegmF" LOC = K15;
+NET "SegmG" LOC = L14;
+NET "Display[3]" LOC = G12;
+NET "Display[2]" LOC = H12;
+NET "Display[1]" LOC = F13;
+NET "Display[0]" LOC = G13;
+#NET "Reloj" LOC = E7;
+
+
+NET "otros[3]" LOC = H13;
+NET "otros[2]" LOC = K11;
+NET "otros[1]" LOC = J13;
+NET "otros[0]" LOC = K12;
+
+# PlanAhead Generated physical constraints 
+
+NET "Relojj" LOC = E7;

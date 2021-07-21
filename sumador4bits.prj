@@ -1,0 +1,6 @@
+vhdl work "xor1.vhd"
+vhdl work "and.vhd"
+vhdl work "or1.vhd"
+vhdl work "MedioSumador.vhd"
+vhdl work "SumadorCompleto.vhd"
+vhdl work "sumador4bits.vhd"

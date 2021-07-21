@@ -1,0 +1,6 @@
+vhdl work "and.vhd"
+vhdl work "or1.vhd"
+vhdl work "notA.vhd"
+vhdl work "AND3IN.vhd"
+vhdl work "AND-4IN.vhd"
+vhdl work "Decodificador.vhd"

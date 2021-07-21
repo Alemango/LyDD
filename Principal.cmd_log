@@ -1,0 +1,69 @@
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 
+xst -intstyle ise -ifn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.xst" -ofn "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Principal.ucf -p xc6slx9-csg225-3 Principal.ngc Principal.ngd  
+map -intstyle ise -p xc6slx9-csg225-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Principal_map.ncd Principal.ngd Principal.pcf 
+par -w -intstyle ise -ol high -mt off Principal_map.ncd Principal.ncd Principal.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Principal.twx Principal.ncd -o Principal.twr Principal.pcf -ucf Principal.ucf 
+bitgen -intstyle ise -f Principal.ut Principal.ncd 

@@ -1,0 +1,31 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Jun 25 19:07:03 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "SegmB" LOCATE = SITE "L15" LEVEL 1;
+COMP "SegmC" LOCATE = SITE "M15" LEVEL 1;
+COMP "SegmD" LOCATE = SITE "P15" LEVEL 1;
+COMP "SegmE" LOCATE = SITE "P14" LEVEL 1;
+COMP "SegmF" LOCATE = SITE "K15" LEVEL 1;
+COMP "Relojj" LOCATE = SITE "E7" LEVEL 1;
+COMP "SegmG" LOCATE = SITE "L14" LEVEL 1;
+COMP "PinA<0>" LOCATE = SITE "R7" LEVEL 1;
+COMP "PinA<1>" LOCATE = SITE "P5" LEVEL 1;
+COMP "PinA<2>" LOCATE = SITE "N2" LEVEL 1;
+COMP "PinA<3>" LOCATE = SITE "L1" LEVEL 1;
+COMP "PinB<0>" LOCATE = SITE "M8" LEVEL 1;
+COMP "PinB<1>" LOCATE = SITE "N6" LEVEL 1;
+COMP "PinB<2>" LOCATE = SITE "N4" LEVEL 1;
+COMP "PinB<3>" LOCATE = SITE "P9" LEVEL 1;
+COMP "Display<0>" LOCATE = SITE "G13" LEVEL 1;
+COMP "Display<1>" LOCATE = SITE "F13" LEVEL 1;
+COMP "Display<2>" LOCATE = SITE "H12" LEVEL 1;
+COMP "Display<3>" LOCATE = SITE "G12" LEVEL 1;
+COMP "otros<0>" LOCATE = SITE "K12" LEVEL 1;
+COMP "otros<1>" LOCATE = SITE "J13" LEVEL 1;
+COMP "otros<2>" LOCATE = SITE "K11" LEVEL 1;
+COMP "otros<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "SegmA" LOCATE = SITE "K13" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="PinA">
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="PinB">
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="Display">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="otros">
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="Relojj" Dir="IN"/>
+		<Port Id="SegmA" Dir="OUT"/>
+		<Port Id="SegmB" Dir="OUT"/>
+		<Port Id="SegmC" Dir="OUT"/>
+		<Port Id="SegmD" Dir="OUT"/>
+		<Port Id="SegmE" Dir="OUT"/>
+		<Port Id="SegmF" Dir="OUT"/>
+		<Port Id="SegmG" Dir="OUT"/>
+	</Ifc>
+</Interface>
+

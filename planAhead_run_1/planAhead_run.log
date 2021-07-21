@@ -1,0 +1,124 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1145 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/ise/Desktop/prac5JJAE/prac6JJAE/pa.fromNetlist.tcl
+# create_project -name prac6JJAE -dir "/home/ise/Desktop/prac5JJAE/prac6JJAE/planAhead_run_1" -part xc6slx9csg225-3
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2639.324 ; gain = 20.141
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {/home/ise/Desktop/prac5JJAE/prac6JJAE} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "Principal.ucf" [current_fileset -constrset]
+Adding file '/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.ucf' to fileset 'constrs_1'
+# add_files [list {Principal.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6slx9csg225-3
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Release 14.7 - ngc2edif P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design Principal.ngc ...
+WARNING:NetListWriters:298 - No output is written to Principal.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file Principal.edif ...
+ngc2edif: Total memory usage is 103952 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/prac6JJAE.data/cache/Principal_ngc_6421ec11.edif]
+Finished Parsing EDIF File [./planAhead_run_1/prac6JJAE.data/cache/Principal_ngc_6421ec11.edif]
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/ClockBuffers.xml
+Loading package pin functions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/PinFunctions.xml...
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/spartan6lx/xc6slx9/csg225/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/IOStandards.xml
+Loading device configuration modes from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan6/ConfigModes.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan6/drc.xml
+Parsing UCF File [/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.ucf]
+Finished Parsing UCF File [/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  BUFGP => BUFGP (IBUF, BUFG): 1 instances
+
+Phase 0 | Netlist Checksum: daf920dc
+link_design: Time (s): cpu = 00:00:48 ; elapsed = 00:00:54 . Memory (MB): peak = 2801.262 ; gain = 152.926
+startgroup
+set_property package_pin L1 [get_ports {PinA[3]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {PinA[2]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {PinA[1]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports {PinA[0]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {PinB[3]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {PinB[2]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {PinB[1]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {PinB[0]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports SegmA]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports SegmB]
+endgroup
+startgroup
+set_property package_pin M15 [get_ports SegmC]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports SegmD]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports SegmE]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports SegmF]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports SegmG]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {Display[3]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {Display[2]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {Display[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {Display[0]}]
+endgroup
+startgroup
+set_property package_pin E7 [get_ports Reloj]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 18 21:20:02 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

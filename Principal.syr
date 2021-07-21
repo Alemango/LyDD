@@ -1,0 +1,679 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.21 secs
+ 
+--> 
+Reading design: Principal.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Principal.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Principal"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-csg225
+
+---- Source Options
+Top Module Name                    : Principal
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/xor1.vhd" into library work
+Parsing entity <xor1>.
+Parsing architecture <Behavioral> of entity <xor1>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/or1.vhd" into library work
+Parsing entity <or1>.
+Parsing architecture <Behavioral> of entity <or1>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/notA.vhd" into library work
+Parsing entity <notA>.
+Parsing architecture <Behavioral> of entity <nota>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/and.vhd" into library work
+Parsing entity <and1>.
+Parsing architecture <Behavioral> of entity <and1>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux21.vhd" into library work
+Parsing entity <mux21>.
+Parsing architecture <Behavioral> of entity <mux21>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/MedioSumador.vhd" into library work
+Parsing entity <MedioSumador>.
+Parsing architecture <Behavioral> of entity <mediosumador>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/SumadorCompleto.vhd" into library work
+Parsing entity <SumadorCompleto>.
+Parsing architecture <Behavioral> of entity <sumadorcompleto>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/nandi.vhd" into library work
+Parsing entity <nandi>.
+Parsing architecture <Behavioral> of entity <nandi>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux214bit.vhd" into library work
+Parsing entity <mux214bit>.
+Parsing architecture <Behavioral> of entity <mux214bit>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/FFJK.vhd" into library work
+Parsing entity <FFJK>.
+Parsing architecture <Behavioral> of entity <ffjk>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/AND3IN.vhd" into library work
+Parsing entity <AND3IN>.
+Parsing architecture <Behavioral> of entity <and3in>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/AND-4IN.vhd" into library work
+Parsing entity <AND4IN>.
+Parsing architecture <Behavioral> of entity <and4in>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/sumador4bits.vhd" into library work
+Parsing entity <sumador4bits>.
+Parsing architecture <Behavioral> of entity <sumador4bits>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/reloj.vhd" into library work
+Parsing entity <reloj>.
+Parsing architecture <Behavioral> of entity <reloj>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux41.vhd" into library work
+Parsing entity <mux41>.
+Parsing architecture <Behavioral> of entity <mux41>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/Decodificador.vhd" into library work
+Parsing entity <Decodificador>.
+Parsing architecture <Behavioral> of entity <decodificador>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/deco2a4.vhd" into library work
+Parsing entity <deco2a4>.
+Parsing architecture <Behavioral> of entity <deco2a4>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/cont2bits.vhd" into library work
+Parsing entity <cont2bits>.
+Parsing architecture <Behavioral> of entity <cont2bits>.
+Parsing VHDL file "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.vhd" into library work
+Parsing entity <Principal>.
+Parsing architecture <Behavioral> of entity <principal>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Principal> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <cont2bits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <FFJK> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <deco2a4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <notA> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <nandi> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <sumador4bits> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <SumadorCompleto> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MedioSumador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <xor1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <and1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <or1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux41> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux214bit> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <mux21> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <Decodificador> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <AND4IN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <AND3IN> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <reloj> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:634 - "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.vhd" Line 110: Net <sc[3]> does not have a driver.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Principal>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.vhd".
+WARNING:Xst:653 - Signal <sc> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+WARNING:Xst:653 - Signal <sd> is used but never assigned. This sourceless signal will be automatically connected to value GND.
+    Summary:
+	no macro.
+Unit <Principal> synthesized.
+
+Synthesizing Unit <cont2bits>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/cont2bits.vhd".
+INFO:Xst:3210 - "/home/ise/Desktop/prac5JJAE/prac6JJAE/cont2bits.vhd" line 56: Output port <QN> of the instance <u1> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <cont2bits> synthesized.
+
+Synthesizing Unit <FFJK>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/FFJK.vhd".
+    Found 1-bit register for signal <QS>.
+    Summary:
+	inferred   1 D-type flip-flop(s).
+Unit <FFJK> synthesized.
+
+Synthesizing Unit <deco2a4>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/deco2a4.vhd".
+    Summary:
+	no macro.
+Unit <deco2a4> synthesized.
+
+Synthesizing Unit <notA>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/notA.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <notA> synthesized.
+
+Synthesizing Unit <nandi>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/nandi.vhd".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <nandi> synthesized.
+
+Synthesizing Unit <sumador4bits>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/sumador4bits.vhd".
+    Summary:
+	no macro.
+Unit <sumador4bits> synthesized.
+
+Synthesizing Unit <SumadorCompleto>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/SumadorCompleto.vhd".
+    Summary:
+	no macro.
+Unit <SumadorCompleto> synthesized.
+
+Synthesizing Unit <MedioSumador>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/MedioSumador.vhd".
+    Summary:
+	no macro.
+Unit <MedioSumador> synthesized.
+
+Synthesizing Unit <xor1>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/xor1.vhd".
+    Summary:
+	inferred   2 Multiplexer(s).
+Unit <xor1> synthesized.
+
+Synthesizing Unit <and1>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/and.vhd".
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <and1> synthesized.
+
+Synthesizing Unit <or1>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/or1.vhd".
+    Summary:
+	inferred   3 Multiplexer(s).
+Unit <or1> synthesized.
+
+Synthesizing Unit <mux41>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux41.vhd".
+    Summary:
+	no macro.
+Unit <mux41> synthesized.
+
+Synthesizing Unit <mux214bit>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux214bit.vhd".
+    Summary:
+	no macro.
+Unit <mux214bit> synthesized.
+
+Synthesizing Unit <mux21>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/mux21.vhd".
+    Summary:
+	no macro.
+Unit <mux21> synthesized.
+
+Synthesizing Unit <Decodificador>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/Decodificador.vhd".
+    Summary:
+	no macro.
+Unit <Decodificador> synthesized.
+
+Synthesizing Unit <AND4IN>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/AND-4IN.vhd".
+    Summary:
+	no macro.
+Unit <AND4IN> synthesized.
+
+Synthesizing Unit <AND3IN>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/AND3IN.vhd".
+    Summary:
+	no macro.
+Unit <AND3IN> synthesized.
+
+Synthesizing Unit <reloj>.
+    Related source file is "/home/ise/Desktop/prac5JJAE/prac6JJAE/reloj.vhd".
+    Found 1-bit register for signal <salida>.
+    Found 32-bit register for signal <contador>.
+    Found 32-bit adder for signal <contador[31]_GND_24_o_add_0_OUT> created at line 54.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  33 D-type flip-flop(s).
+Unit <reloj> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 32-bit adder                                          : 1
+# Registers                                            : 4
+ 1-bit register                                        : 3
+ 32-bit register                                       : 1
+# Multiplexers                                         : 387
+ 1-bit 2-to-1 multiplexer                              : 387
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <reloj>.
+The following registers are absorbed into counter <contador>: 1 register on signal <contador>.
+Unit <reloj> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 32-bit up counter                                     : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Multiplexers                                         : 369
+ 1-bit 2-to-1 multiplexer                              : 369
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <Principal> ...
+
+Optimizing unit <Decodificador> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Principal, actual ratio is 1.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 35
+ Flip-Flops                                            : 35
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Principal.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 159
+#      GND                         : 1
+#      INV                         : 3
+#      LUT1                        : 31
+#      LUT2                        : 38
+#      LUT3                        : 1
+#      LUT4                        : 8
+#      LUT5                        : 2
+#      LUT6                        : 11
+#      MUXCY                       : 31
+#      VCC                         : 1
+#      XORCY                       : 32
+# FlipFlops/Latches                : 35
+#      FD                          : 35
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 8
+#      OBUF                        : 15
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9csg225-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              35  out of  11440     0%  
+ Number of Slice LUTs:                   94  out of   5720     1%  
+    Number used as Logic:                94  out of   5720     1%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     94
+   Number with an unused Flip Flop:      59  out of     94    62%  
+   Number with an unused LUT:             0  out of     94     0%  
+   Number of fully used LUT-FF pairs:    35  out of     94    37%  
+   Number of unique control sets:         3
+
+IO Utilization: 
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    160    15%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+u0/u0/QS                           | NONE(u0/u1/QS)         | 1     |
+u5/salida                          | NONE(u0/u0/QS)         | 1     |
+Relojj                             | BUFGP                  | 33    |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 4.164ns (Maximum Frequency: 240.136MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 6.217ns
+   Maximum combinational path delay: 7.847ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u0/u0/QS'
+  Clock period: 2.163ns (frequency: 462.406MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.163ns (Levels of Logic = 1)
+  Source:            u0/u1/QS (FF)
+  Destination:       u0/u1/QS (FF)
+  Source Clock:      u0/u0/QS falling
+  Destination Clock: u0/u0/QS falling
+
+  Data Path: u0/u1/QS to u0/u1/QS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   0.829  u0/u1/QS (u0/u1/QS)
+     INV:I->O              1   0.206   0.579  u0/u1/QN1_INV_0 (u0/u1/QN)
+     FD:D                      0.102          u0/u1/QS
+    ----------------------------------------
+    Total                      2.163ns (0.755ns logic, 1.408ns route)
+                                       (34.9% logic, 65.1% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'u5/salida'
+  Clock period: 2.200ns (frequency: 454.545MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.200ns (Levels of Logic = 1)
+  Source:            u0/u0/QS (FF)
+  Destination:       u0/u0/QS (FF)
+  Source Clock:      u5/salida rising
+  Destination Clock: u5/salida rising
+
+  Data Path: u0/u0/QS to u0/u0/QS
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   0.829  u0/u0/QS (u0/u0/QS)
+     INV:I->O              2   0.206   0.616  u0/u0/QN1_INV_0 (u0/Qnn)
+     FD:D                      0.102          u0/u0/QS
+    ----------------------------------------
+    Total                      2.200ns (0.755ns logic, 1.445ns route)
+                                       (34.3% logic, 65.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Relojj'
+  Clock period: 4.164ns (frequency: 240.136MHz)
+  Total number of paths / destination ports: 1586 / 33
+-------------------------------------------------------------------------
+Delay:               4.164ns (Levels of Logic = 3)
+  Source:            u5/contador_25 (FF)
+  Destination:       u5/contador_0 (FF)
+  Source Clock:      Relojj rising
+  Destination Clock: Relojj rising
+
+  Data Path: u5/contador_25 to u5/contador_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.981  u5/contador_25 (u5/contador_25)
+     LUT6:I0->O            3   0.203   0.995  u5/GND_24_o_GND_24_o_equal_2_o<31>5 (u5/GND_24_o_GND_24_o_equal_2_o<31>4)
+     LUT6:I1->O           17   0.203   1.028  u5/GND_24_o_GND_24_o_equal_2_o<31>7 (u5/GND_24_o_GND_24_o_equal_2_o)
+     LUT2:I1->O            1   0.205   0.000  u5/contador_0_rstpot (u5/contador_0_rstpot)
+     FD:D                      0.102          u5/contador_0
+    ----------------------------------------
+    Total                      4.164ns (1.160ns logic, 3.004ns route)
+                                       (27.9% logic, 72.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u5/salida'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              6.217ns (Levels of Logic = 3)
+  Source:            u0/u0/QS (FF)
+  Destination:       SegmA (PAD)
+  Source Clock:      u5/salida rising
+
+  Data Path: u0/u0/QS to SegmA
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   1.194  u0/u0/QS (u0/u0/QS)
+     LUT6:I0->O            7   0.203   1.021  u3/u2/u1/u1/Mmux_Xa11 (ssal<1>)
+     LUT4:I0->O            1   0.203   0.579  u4/SalSegA1 (SegmA_OBUF)
+     OBUF:I->O                 2.571          SegmA_OBUF (SegmA)
+    ----------------------------------------
+    Total                      6.217ns (3.424ns logic, 2.793ns route)
+                                       (55.1% logic, 44.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'u0/u0/QS'
+  Total number of paths / destination ports: 32 / 11
+-------------------------------------------------------------------------
+Offset:              6.217ns (Levels of Logic = 3)
+  Source:            u0/u1/QS (FF)
+  Destination:       SegmC (PAD)
+  Source Clock:      u0/u0/QS falling
+
+  Data Path: u0/u1/QS to SegmC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               9   0.447   1.194  u0/u1/QS (u0/u1/QS)
+     LUT6:I0->O            7   0.203   1.021  u3/u2/u0/u1/Mmux_Xa1 (ssal<0>)
+     LUT4:I0->O            1   0.203   0.579  u4/SalSegC1 (SegmC_OBUF)
+     OBUF:I->O                 2.571          SegmC_OBUF (SegmC)
+    ----------------------------------------
+    Total                      6.217ns (3.424ns logic, 2.793ns route)
+                                       (55.1% logic, 44.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 196 / 7
+-------------------------------------------------------------------------
+Delay:               7.847ns (Levels of Logic = 5)
+  Source:            PinA<2> (PAD)
+  Destination:       SegmC (PAD)
+
+  Data Path: PinA<2> to SegmC
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.222   0.981  PinA_2_IBUF (PinA_2_IBUF)
+     LUT6:I0->O            2   0.203   0.864  u2/u2/u2/Mmux_Xo11 (u2/C3)
+     LUT6:I2->O            7   0.203   1.021  u3/u2/u0/u1/Mmux_Xa1 (ssal<0>)
+     LUT4:I0->O            1   0.203   0.579  u4/SalSegC1 (SegmC_OBUF)
+     OBUF:I->O                 2.571          SegmC_OBUF (SegmC)
+    ----------------------------------------
+    Total                      7.847ns (4.402ns logic, 3.445ns route)
+                                       (56.1% logic, 43.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Relojj
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Relojj         |    4.164|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u0/u0/QS
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u0/u0/QS       |         |         |    2.163|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock u5/salida
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+u5/salida      |    2.200|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 28.00 secs
+Total CPU time to Xst completion: 25.94 secs
+ 
+--> 
+
+
+Total memory usage is 485248 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    3 (   0 filtered)
+Number of infos    :    2 (   0 filtered)
+

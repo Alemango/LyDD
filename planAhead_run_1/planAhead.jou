@@ -1,0 +1,71 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Thu Jun 18 21:09:30 2020
+# Process ID: 3654
+# Log file: /home/ise/Desktop/prac5JJAE/prac6JJAE/planAhead_run_1/planAhead.log
+# Journal file: /home/ise/Desktop/prac5JJAE/prac6JJAE/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Desktop/prac5JJAE/prac6JJAE/pa.fromNetlist.tcl
+startgroup
+set_property package_pin L1 [get_ports {PinA[3]}]
+endgroup
+startgroup
+set_property package_pin N2 [get_ports {PinA[2]}]
+endgroup
+startgroup
+set_property package_pin P5 [get_ports {PinA[1]}]
+endgroup
+startgroup
+set_property package_pin R7 [get_ports {PinA[0]}]
+endgroup
+startgroup
+set_property package_pin P9 [get_ports {PinB[3]}]
+endgroup
+startgroup
+set_property package_pin N4 [get_ports {PinB[2]}]
+endgroup
+startgroup
+set_property package_pin N6 [get_ports {PinB[1]}]
+endgroup
+startgroup
+set_property package_pin M8 [get_ports {PinB[0]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports SegmA]
+endgroup
+startgroup
+set_property package_pin L15 [get_ports SegmB]
+endgroup
+startgroup
+set_property package_pin M15 [get_ports SegmC]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports SegmD]
+endgroup
+startgroup
+set_property package_pin P14 [get_ports SegmE]
+endgroup
+startgroup
+set_property package_pin K15 [get_ports SegmF]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports SegmG]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {Display[3]}]
+endgroup
+startgroup
+set_property package_pin F13 [get_ports {Display[2]}]
+endgroup
+startgroup
+set_property package_pin H12 [get_ports {Display[1]}]
+endgroup
+startgroup
+set_property package_pin G13 [get_ports {Display[0]}]
+endgroup
+startgroup
+set_property package_pin E7 [get_ports Reloj]
+endgroup
+save_constraints

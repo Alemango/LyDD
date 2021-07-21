@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.ncd
+OUTFILE=/home/ise/Desktop/prac5JJAE/prac6JJAE/Principal.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg225
+WORKINGDIR=/home/ise/Desktop/prac5JJAE/prac6JJAE
+LICENSE=ISE
+USER_INFO=8416_11442_1478797146_620

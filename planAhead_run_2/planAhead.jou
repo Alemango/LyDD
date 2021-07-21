@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Sat Jun 20 00:05:12 2020
+# Process ID: 3414
+# Log file: /home/ise/Desktop/prac5JJAE/prac6JJAE/planAhead_run_2/planAhead.log
+# Journal file: /home/ise/Desktop/prac5JJAE/prac6JJAE/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source /home/ise/Desktop/prac5JJAE/prac6JJAE/pa.fromNetlist.tcl
+startgroup
+set_property package_pin H13 [get_ports {otros[3]}]
+endgroup
+startgroup
+set_property package_pin K11 [get_ports {otros[2]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {otros[1]}]
+endgroup
+startgroup
+set_property package_pin K12 [get_ports {otros[0]}]
+endgroup
+save_constraints

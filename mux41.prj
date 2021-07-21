@@ -1,0 +1,6 @@
+vhdl work "or1.vhd"
+vhdl work "notA.vhd"
+vhdl work "and.vhd"
+vhdl work "mux21.vhd"
+vhdl work "mux214bit.vhd"
+vhdl work "mux41.vhd"
